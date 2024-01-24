@@ -14,6 +14,7 @@ def convert():
             ('Feet', 'Meters'): 0.3048,
             ('Yards', 'Meters'): 0.9144,
             ('Meters', 'Yards'): 1.09361,
+            ('Miles', 'Feet'): 5280,
         }
 
         result = value * factors[(from_unit, to_unit)]
